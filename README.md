@@ -32,4 +32,4 @@ Then open `http://localhost:4173`.
 
 ## Publish
 
-The included GitHub Actions workflow publishes the site to GitHub Pages whenever changes reach `main`. In the repository settings, choose **Settings → Pages → Source: GitHub Actions** if it is not already selected.
+The included GitHub Actions workflow publishes the site to GitHub Pages whenever changes reach `main`. In the repository settings, choose **Settings ? Pages ? Source: GitHub Actions** if it is not already selected.

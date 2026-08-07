@@ -35,7 +35,7 @@ window.PORTFOLIO_DATA = {
     ],
     photos: [
       {
-        src: "assets/about-main.svg",
+        src: "assets/IMG_3290.jpeg",
         alt: "Placeholder for a primary portrait or workspace photo",
         caption: "Add a portrait or favorite workspace photo",
       },

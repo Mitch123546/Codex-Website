@@ -35,17 +35,17 @@ window.PORTFOLIO_DATA = {
     ],
     photos: [
       {
-        src: "personal_photo.jpg",
+        src: "assets/personal_photo.jpg",
         alt: "Placeholder for a primary portrait or workspace photo",
         caption: "Me looking spiffy",
       },
       {
-        src: "garden_photo.jpg",
+        src: "assets/garden_photo.jpg",
         alt: "Placeholder for a detail photo",
         caption: "I love to garden",
       },
       {
-        src: "cooking_photo.jpg",
+        src: "assets/cooking_photo.jpg",
         alt: "Placeholder for a personal photo",
         caption: "I love to cook",
       },

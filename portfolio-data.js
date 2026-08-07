@@ -54,22 +54,22 @@ window.PORTFOLIO_DATA = {
 
   engineeringProjects: [
     {
-      id: "autonomous-rover",
-      title: "Autonomous Rover Platform",
-      summary: "A modular rover designed to navigate, sense, and respond to changing environments.",
+      id: "paper_folder",
+      title: "Automatic Businesscard Stapler and Paper Folder",
+      summary: "A device that is able to dispense a businesscard, stapling it to a piece of paper, and folding said paper twice.",
       description: [
-        "Use this space to explain the challenge, your role, and the engineering decisions that shaped the project. Readers care about the problem almost as much as the final result.",
-        "Add measurable outcomes, lessons learned, and the tools or processes you used. The detail view can hold as much text, photography, and video as the project needs.",
+        "This project is meant to increase the productivity of shipping for the company Vette Lights. This project required use of arduino, coding, wiring, 3d modeling in solidworks, and woodworking.",
+        "This project taught me all the major building skills I wished to learn. I learned arduino, arduino IDE, refined my coding in C skills, developed my 3d modeling, and helped my creativity.",
       ],
       cover: {
-        src: "assets/engineering-rover.svg",
+        src: "assets/IMG_3290.jpeg",
         alt: "Stylized placeholder illustration of an autonomous rover",
       },
       tags: ["Mechanical Design", "Controls", "Prototyping"],
       media: [
         {
           type: "image",
-          src: "assets/engineering-rover.svg",
+          src: "assets/IMG_3290.jpeg",
           alt: "Stylized placeholder illustration of an autonomous rover",
           caption: "Replace with a hero photo of the finished system.",
         },

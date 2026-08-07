@@ -5,8 +5,6 @@ const icons = {
     '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 10v8M8 7v.01M12 18v-4.5a3.5 3.5 0 0 1 7 0V18M12 10v8M5 10h6M5 18h6"/></svg>',
   email:
     '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4zM4 7l8 6 8-6"/></svg>',
-  phone:
-    '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 4 10 8l-2 2c1.2 2.8 3.2 4.8 6 6l2-2 4 2.5-1 3c-.3.8-1.1 1.3-2 1.2C9.5 20 4 14.5 3.3 7c-.1-.9.4-1.7 1.2-2z"/></svg>',
 };
 
 function populateProfile() {
@@ -165,3 +163,4 @@ populateProfile();
 renderProjectCards(data.engineeringProjects, "engineering");
 renderProjectCards(data.personalProjects, "personal");
 updateHeader();
+

@@ -12,32 +12,26 @@
 
 window.PORTFOLIO_DATA = {
   profile: {
-    name: "Your Name",
-    initials: "YN",
+    name: "Mitch Manzelli",
+    initials: "MM",
     tagline: "I turn complex problems into thoughtful, working systems.",
     contacts: [
       {
         label: "LinkedIn",
-        value: "linkedin.com/in/your-profile",
-        href: "https://www.linkedin.com/in/your-profile",
+        value: "linkedin.com/in/mitchell-manzelli",
+        href: "https://www.linkedin.com/in/mitchell-manzelli/",
         icon: "linkedin",
       },
       {
         label: "Email",
-        value: "you@example.com",
-        href: "mailto:you@example.com",
+        value: "mitchellmanzelli1@gmail.com",
+        href: "mailto:mitchellmanzelli1@gmail.com",
         icon: "email",
-      },
-      {
-        label: "Phone",
-        value: "(555) 555-5555",
-        href: "tel:+15555555555",
-        icon: "phone",
       },
     ],
     about: [
-      "Write a short introduction here about who you are, what kind of engineering you enjoy, and what motivates your work. Two or three concise paragraphs usually work best.",
-      "You can also mention the tools you use, the problems you like solving, or what you are currently learning. Replace this placeholder whenever you are ready.",
+      "I'm a mechanical engineering student at the University of Oklahoma, and I'll graduate in May 2029. Some of my favorite hobbies are tending to my garden, making whatever projects pop into my head, and cooking and refining my recipes.",
+      "I have the mindset that I can figure out anything I want to learn, and I hope to apply that determination to my work one day.",
     ],
     photos: [
       {
@@ -207,7 +201,7 @@ window.PORTFOLIO_DATA = {
       title: "Custom Arcade Controller",
       summary: "A compact controller tuned for satisfying inputs, repairability, and late-night play.",
       description: [
-        "Describe the design choices that made this build yours?from switch feel and layout to the enclosure finish and internal wiring.",
+        "Describe the design choices that made this build yoursâ€”from switch feel and layout to the enclosure finish and internal wiring.",
         "A quick demonstration video can be added by placing an MP4 in the assets folder and adding a video media object to this project.",
       ],
       cover: {
@@ -232,3 +226,4 @@ window.PORTFOLIO_DATA = {
     },
   ],
 };
+

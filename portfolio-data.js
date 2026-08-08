@@ -79,6 +79,20 @@ window.PORTFOLIO_DATA = {
           alt: "Stylized placeholder for a technical detail image",
           caption: "Add CAD, testing, or in-progress imagery.",
         },
+        // OPTIONAL PHOTO 3: Replace these details, or delete this entire object.
+        {
+          type: "image",
+          src: "assets/optional-photo-3.svg",
+          alt: "Optional placeholder for a third project photo",
+          caption: "Optional photo 3 - replace or remove this block.",
+        },
+        // OPTIONAL PHOTO 4: Replace these details, or delete this entire object.
+        {
+          type: "image",
+          src: "assets/optional-photo-4.svg",
+          alt: "Optional placeholder for a fourth project photo",
+          caption: "Optional photo 4 - replace or remove this block.",
+        },
       ],
     },
     {
@@ -107,6 +121,20 @@ window.PORTFOLIO_DATA = {
           alt: "Stylized placeholder for a graph or technical drawing",
           caption: "Add a key result, graph, or schematic.",
         },
+        // OPTIONAL PHOTO 3: Replace these details, or delete this entire object.
+        {
+          type: "image",
+          src: "assets/optional-photo-3.svg",
+          alt: "Optional placeholder for a third project photo",
+          caption: "Optional photo 3 - replace or remove this block.",
+        },
+        // OPTIONAL PHOTO 4: Replace these details, or delete this entire object.
+        {
+          type: "image",
+          src: "assets/optional-photo-4.svg",
+          alt: "Optional placeholder for a fourth project photo",
+          caption: "Optional photo 4 - replace or remove this block.",
+        },
       ],
     },
     {
@@ -134,6 +162,20 @@ window.PORTFOLIO_DATA = {
           src: "assets/detail-blueprint.svg",
           alt: "Stylized placeholder for a system architecture diagram",
           caption: "Add a system diagram or alternate screen.",
+        },
+        // OPTIONAL PHOTO 3: Replace these details, or delete this entire object.
+        {
+          type: "image",
+          src: "assets/optional-photo-3.svg",
+          alt: "Optional placeholder for a third project photo",
+          caption: "Optional photo 3 - replace or remove this block.",
+        },
+        // OPTIONAL PHOTO 4: Replace these details, or delete this entire object.
+        {
+          type: "image",
+          src: "assets/optional-photo-4.svg",
+          alt: "Optional placeholder for a fourth project photo",
+          caption: "Optional photo 4 - replace or remove this block.",
         },
       ],
     },
@@ -166,6 +208,20 @@ window.PORTFOLIO_DATA = {
           alt: "Stylized placeholder for a fabrication process photo",
           caption: "Add a build-process detail.",
         },
+        // OPTIONAL PHOTO 3: Replace these details, or delete this entire object.
+        {
+          type: "image",
+          src: "assets/optional-photo-3.svg",
+          alt: "Optional placeholder for a third project photo",
+          caption: "Optional photo 3 - replace or remove this block.",
+        },
+        // OPTIONAL PHOTO 4: Replace these details, or delete this entire object.
+        {
+          type: "image",
+          src: "assets/optional-photo-4.svg",
+          alt: "Optional placeholder for a fourth project photo",
+          caption: "Optional photo 4 - replace or remove this block.",
+        },
       ],
     },
     {
@@ -193,6 +249,20 @@ window.PORTFOLIO_DATA = {
           src: "assets/detail-orange.svg",
           alt: "Stylized placeholder for a location photograph",
           caption: "Add one of the photographs the project inspired.",
+        },
+        // OPTIONAL PHOTO 3: Replace these details, or delete this entire object.
+        {
+          type: "image",
+          src: "assets/optional-photo-3.svg",
+          alt: "Optional placeholder for a third project photo",
+          caption: "Optional photo 3 - replace or remove this block.",
+        },
+        // OPTIONAL PHOTO 4: Replace these details, or delete this entire object.
+        {
+          type: "image",
+          src: "assets/optional-photo-4.svg",
+          alt: "Optional placeholder for a fourth project photo",
+          caption: "Optional photo 4 - replace or remove this block.",
         },
       ],
     },
@@ -222,9 +292,24 @@ window.PORTFOLIO_DATA = {
           alt: "Stylized placeholder for an electronics detail photo",
           caption: "Add an internal wiring or fabrication detail.",
         },
+        // OPTIONAL PHOTO 3: Replace these details, or delete this entire object.
+        {
+          type: "image",
+          src: "assets/optional-photo-3.svg",
+          alt: "Optional placeholder for a third project photo",
+          caption: "Optional photo 3 - replace or remove this block.",
+        },
+        // OPTIONAL PHOTO 4: Replace these details, or delete this entire object.
+        {
+          type: "image",
+          src: "assets/optional-photo-4.svg",
+          alt: "Optional placeholder for a fourth project photo",
+          caption: "Optional photo 4 - replace or remove this block.",
+        },
       ],
     },
   ],
 };
+
 
 

@@ -445,6 +445,16 @@ button {
   transform: scale(1.035);
 }
 
+/* Crop the pale top edge from the Cigar from Seed cover without changing the original photo. */
+.project-card[data-project-id="cigar"] img {
+  object-position: 50% 100%;
+  transform: scale(1.14);
+}
+
+.project-card[data-project-id="cigar"]:hover img {
+  transform: scale(1.18);
+}
+
 .project-card__body {
   display: block;
   padding: 1.35rem 1.35rem 1.55rem;
@@ -792,4 +802,5 @@ footer {
     transition-duration: 0.01ms !important;
   }
 }
+
 

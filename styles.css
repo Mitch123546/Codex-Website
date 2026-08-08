@@ -403,6 +403,7 @@ button {
 
 .project-card__image {
   position: relative;
+  display: block;
   overflow: hidden;
   aspect-ratio: 4 / 3;
   background: #dfe8ed;
@@ -445,6 +446,7 @@ button {
 }
 
 .project-card__body {
+  display: block;
   padding: 1.35rem 1.35rem 1.55rem;
 }
 
@@ -790,3 +792,4 @@ footer {
     transition-duration: 0.01ms !important;
   }
 }
+

@@ -97,85 +97,39 @@ window.PORTFOLIO_DATA = {
     },
     {
       id: "thermal-test-fixture",
-      title: "Thermal Test Fixture",
-      summary: "A repeatable fixture for characterizing component performance under thermal load.",
-      description: [
-        "Describe the design constraints, test plan, and how you made the measurements repeatable. This is a strong place to include diagrams, data plots, or a short test video.",
-        "Finish with the result: what changed because of the data, and what would you improve in the next revision?",
-      ],
+      title: "Engineering Project - Coming Soon",
+      summary: "To be completed.",
+      description: [],
       cover: {
-        src: "assets/engineering-thermal.svg",
-        alt: "Stylized placeholder illustration of a thermal test fixture",
+        src: "assets/coming-soon.svg",
+        alt: "Engineering project coming soon",
       },
-      tags: ["Testing", "Instrumentation", "Data Analysis"],
+      tags: ["Coming Soon"],
       media: [
         {
           type: "image",
-          src: "assets/engineering-thermal.svg",
-          alt: "Stylized placeholder illustration of a thermal test fixture",
-          caption: "Add a photo of the test setup.",
-        },
-        {
-          type: "image",
-          src: "assets/detail-blueprint.svg",
-          alt: "Stylized placeholder for a graph or technical drawing",
-          caption: "Add a key result, graph, or schematic.",
-        },
-        // OPTIONAL PHOTO 3: Replace these details, or delete this entire object.
-        {
-          type: "image",
-          src: "assets/optional-photo-3.svg",
-          alt: "Optional placeholder for a third project photo",
-          caption: "Optional photo 3 - replace or remove this block.",
-        },
-        // OPTIONAL PHOTO 4: Replace these details, or delete this entire object.
-        {
-          type: "image",
-          src: "assets/optional-photo-4.svg",
-          alt: "Optional placeholder for a fourth project photo",
-          caption: "Optional photo 4 - replace or remove this block.",
+          src: "assets/coming-soon.svg",
+          alt: "Engineering project photos coming soon",
+          caption: "Project details and photos coming soon.",
         },
       ],
     },
     {
       id: "data-dashboard",
-      title: "Data Acquisition Dashboard",
-      summary: "A clear, real-time interface for monitoring sensor data and identifying anomalies.",
-      description: [
-        "Explain what the dashboard monitors, who uses it, and the decisions it helps them make. Screenshots and screen recordings work especially well for software-heavy projects.",
-        "Mention the data pipeline, interface decisions, and any performance or reliability improvements you delivered.",
-      ],
+      title: "Engineering Project - Coming Soon",
+      summary: "To be completed.",
+      description: [],
       cover: {
-        src: "assets/engineering-dashboard.svg",
-        alt: "Stylized placeholder illustration of a data dashboard",
+        src: "assets/coming-soon.svg",
+        alt: "Engineering project coming soon",
       },
-      tags: ["Software", "Sensors", "Visualization"],
+      tags: ["Coming Soon"],
       media: [
         {
           type: "image",
-          src: "assets/engineering-dashboard.svg",
-          alt: "Stylized placeholder illustration of a data dashboard",
-          caption: "Replace with a dashboard screenshot.",
-        },
-        {
-          type: "image",
-          src: "assets/detail-blueprint.svg",
-          alt: "Stylized placeholder for a system architecture diagram",
-          caption: "Add a system diagram or alternate screen.",
-        },
-        // OPTIONAL PHOTO 3: Replace these details, or delete this entire object.
-        {
-          type: "image",
-          src: "assets/optional-photo-3.svg",
-          alt: "Optional placeholder for a third project photo",
-          caption: "Optional photo 3 - replace or remove this block.",
-        },
-        // OPTIONAL PHOTO 4: Replace these details, or delete this entire object.
-        {
-          type: "image",
-          src: "assets/optional-photo-4.svg",
-          alt: "Optional placeholder for a fourth project photo",
-          caption: "Optional photo 4 - replace or remove this block.",
+          src: "assets/coming-soon.svg",
+          alt: "Engineering project photos coming soon",
+          caption: "Project details and photos coming soon.",
         },
       ],
     },
@@ -268,48 +222,26 @@ window.PORTFOLIO_DATA = {
     },
     {
       id: "arcade-controller",
-      title: "Custom Arcade Controller",
-      summary: "A compact controller tuned for satisfying inputs, repairability, and late-night play.",
-      description: [
-        "Describe the design choices that made this build yours: from switch feel and layout to the enclosure finish and internal wiring.",
-        "A quick demonstration video can be added by placing an MP4 in the assets folder and adding a video media object to this project.",
-      ],
+      title: "Personal Project - Coming Soon",
+      summary: "To be completed.",
+      description: [],
       cover: {
-        src: "assets/personal-controller.svg",
-        alt: "Stylized placeholder illustration of a custom arcade controller",
+        src: "assets/coming-soon.svg",
+        alt: "Personal project coming soon",
       },
-      tags: ["Electronics", "Fabrication", "Gaming"],
+      tags: ["Coming Soon"],
       media: [
         {
           type: "image",
-          src: "assets/personal-controller.svg",
-          alt: "Stylized placeholder illustration of a custom arcade controller",
-          caption: "Replace with a photo of the completed controller.",
-        },
-        {
-          type: "image",
-          src: "assets/detail-orange.svg",
-          alt: "Stylized placeholder for an electronics detail photo",
-          caption: "Add an internal wiring or fabrication detail.",
-        },
-        // OPTIONAL PHOTO 3: Replace these details, or delete this entire object.
-        {
-          type: "image",
-          src: "assets/optional-photo-3.svg",
-          alt: "Optional placeholder for a third project photo",
-          caption: "Optional photo 3 - replace or remove this block.",
-        },
-        // OPTIONAL PHOTO 4: Replace these details, or delete this entire object.
-        {
-          type: "image",
-          src: "assets/optional-photo-4.svg",
-          alt: "Optional placeholder for a fourth project photo",
-          caption: "Optional photo 4 - replace or remove this block.",
+          src: "assets/coming-soon.svg",
+          alt: "Personal project photos coming soon",
+          caption: "Project details and photos coming soon.",
         },
       ],
     },
   ],
 };
+
 
 
 

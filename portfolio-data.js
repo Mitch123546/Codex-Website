@@ -204,7 +204,7 @@ window.PORTFOLIO_DATA = {
         },
         {
           type: "image",
-          src: "assets/garden2.jpg",
+          src: "assets/garden2.jpeg",
           alt: "Stylized placeholder for a fabrication process photo",
           caption: "Add a build-process detail.",
         },

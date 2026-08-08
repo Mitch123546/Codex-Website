@@ -201,7 +201,7 @@ window.PORTFOLIO_DATA = {
       title: "Custom Arcade Controller",
       summary: "A compact controller tuned for satisfying inputs, repairability, and late-night play.",
       description: [
-        "Describe the design choices that made this build yoursâ€”from switch feel and layout to the enclosure finish and internal wiring.",
+        "Describe the design choices that made this build yours: from switch feel and layout to the enclosure finish and internal wiring.",
         "A quick demonstration video can be added by placing an MP4 in the assets folder and adding a video media object to this project.",
       ],
       cover: {
@@ -226,4 +226,5 @@ window.PORTFOLIO_DATA = {
     },
   ],
 };
+
 

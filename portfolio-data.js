@@ -191,14 +191,14 @@ window.PORTFOLIO_DATA = {
         "I made the garden to last for over 8 years by using Shou Sugi Ban wood preservation, and I used high quality dirt to last for several seasons before replenishing nutrients.",
       ],
       cover: {
-        src: "assets/garden1.jpg",
+        src: "assets/garden1.jpeg",
         alt: "Stylized placeholder illustration of a workbench organizer",
       },
       tags: ["Horticulture", "Woodworking", "Botany"],
       media: [
         {
           type: "image",
-          src: "assets/garden1.jpg",
+          src: "assets/garden1.jpeg",
           alt: "Stylized placeholder illustration of a workbench organizer",
           caption: "Replace with the finished build.",
         },
@@ -240,13 +240,13 @@ window.PORTFOLIO_DATA = {
       media: [
         {
           type: "image",
-          src: "assets/tobacco2.jpg",
+          src: "assets/tobacco2.jpeg",
           alt: "Stylized placeholder illustration of a photography map",
           caption: "Replace with the map or a favorite location.",
         },
         {
           type: "image",
-          src: "assets/tobacco3.jpg",
+          src: "assets/tobacco3.jpeg",
           alt: "Stylized placeholder for a location photograph",
           caption: "Add one of the photographs the project inspired.",
         },

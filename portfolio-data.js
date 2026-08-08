@@ -183,35 +183,35 @@ window.PORTFOLIO_DATA = {
 
   personalProjects: [
     {
-      id: "workbench-organizer",
-      title: "Workbench Organizer",
-      summary: "A custom storage system that keeps everyday tools visible, flexible, and within reach.",
+      id: "Raised Garden Bed",
+      title: "Raised Garden Bed",
+      summary: "A custom built raised garden bed on a slope that includes automatic watering and charred wood to prevent rot.",
       description: [
-        "Personal projects are a great place to show curiosity and personality. Tell the story behind the idea, the materials you chose, and the iterations that made it useful.",
-        "Add process photos or a short walkthrough video to make the project feel tangible.",
+        "This raised garden bed was built specifically with disease prevention in mind. I used drip irrigation along with mulching the ground and raising the bed high enough to prevent the spread and start of infection.",
+        "I made the garden to last for over 8 years by using Shou Sugi Ban wood preservation, and I used high quality dirt to last for several seasons before replenishing nutrients.",
       ],
       cover: {
-        src: "assets/personal-workbench.svg",
+        src: "assets/garden1.jpg",
         alt: "Stylized placeholder illustration of a workbench organizer",
       },
-      tags: ["Fabrication", "Organization", "Iteration"],
+      tags: ["Horticulture", "Woodworking", "Botany"],
       media: [
         {
           type: "image",
-          src: "assets/personal-workbench.svg",
+          src: "assets/garden1.jpg",
           alt: "Stylized placeholder illustration of a workbench organizer",
           caption: "Replace with the finished build.",
         },
         {
           type: "image",
-          src: "assets/detail-orange.svg",
+          src: "assets/garden2.jpg",
           alt: "Stylized placeholder for a fabrication process photo",
           caption: "Add a build-process detail.",
         },
         // OPTIONAL PHOTO 3: Replace these details, or delete this entire object.
         {
           type: "image",
-          src: "assets/optional-photo-3.svg",
+          src: "assets/garden3.jpg",
           alt: "Optional placeholder for a third project photo",
           caption: "Optional photo 3 - replace or remove this block.",
         },
@@ -225,35 +225,35 @@ window.PORTFOLIO_DATA = {
       ],
     },
     {
-      id: "photo-map",
-      title: "Weekend Photography Map",
-      summary: "A lightweight map for collecting overlooked places worth returning to with a camera.",
+      id: "cigar",
+      title: "Cigar from Seed",
+      summary: "Cigar made from planting the seed to rolling and aging the product.",
       description: [
-        "Use this detail area for the origin of the idea, how you built it, and what you discovered along the way. The portfolio supports both technical and visual storytelling.",
-        "You can mix wide images, close-up details, and playable video in the media gallery below.",
+        "Me and a friend grew and sustained over 300 tobacco plants from seed with a custom watering setup and custom aging and fermenting setups.",
+        "I converted my storm shelter into a tobacco curing setup, and I will be fermenting the leaves and rolling the cigars to finish my project.",
       ],
       cover: {
-        src: "assets/personal-map.svg",
+        src: "assets/tobacco1.jpg",
         alt: "Stylized placeholder illustration of a photography map",
       },
-      tags: ["Photography", "Mapping", "Web"],
+      tags: ["Botany", "Largescale Growing", "Tobacco"],
       media: [
         {
           type: "image",
-          src: "assets/personal-map.svg",
+          src: "assets/tobacco2.jpg",
           alt: "Stylized placeholder illustration of a photography map",
           caption: "Replace with the map or a favorite location.",
         },
         {
           type: "image",
-          src: "assets/detail-orange.svg",
+          src: "assets/tobacco3.jpg",
           alt: "Stylized placeholder for a location photograph",
           caption: "Add one of the photographs the project inspired.",
         },
         // OPTIONAL PHOTO 3: Replace these details, or delete this entire object.
         {
           type: "image",
-          src: "assets/optional-photo-3.svg",
+          src: "assets/tobacco4.jpg",
           alt: "Optional placeholder for a third project photo",
           caption: "Optional photo 3 - replace or remove this block.",
         },

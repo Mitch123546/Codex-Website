@@ -240,27 +240,27 @@ window.PORTFOLIO_DATA = {
       media: [
         {
           type: "image",
-          src: "assets/tobacco2.jpeg",
+          src: "assets/tobacco1.jpg",
           alt: "Stylized placeholder illustration of a photography map",
           caption: "Replace with the map or a favorite location.",
         },
         {
           type: "image",
-          src: "assets/tobacco3.jpeg",
+          src: "assets/tobacco2.jpg",
           alt: "Stylized placeholder for a location photograph",
           caption: "Add one of the photographs the project inspired.",
         },
         // OPTIONAL PHOTO 3: Replace these details, or delete this entire object.
         {
           type: "image",
-          src: "assets/tobacco4.jpg",
+          src: "assets/tobacco3.jpeg",
           alt: "Optional placeholder for a third project photo",
           caption: "Optional photo 3 - replace or remove this block.",
         },
         // OPTIONAL PHOTO 4: Replace these details, or delete this entire object.
         {
           type: "image",
-          src: "assets/optional-photo-4.svg",
+          src: "assets/tobacco4.jpg",
           alt: "Optional placeholder for a fourth project photo",
           caption: "Optional photo 4 - replace or remove this block.",
         },

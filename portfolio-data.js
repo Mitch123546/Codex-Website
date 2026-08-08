@@ -246,7 +246,7 @@ window.PORTFOLIO_DATA = {
         },
         {
           type: "image",
-          src: "assets/tobacco2.jpg",
+          src: "assets/tobacco2.jpeg",
           alt: "Stylized placeholder for a location photograph",
           caption: "Add one of the photographs the project inspired.",
         },

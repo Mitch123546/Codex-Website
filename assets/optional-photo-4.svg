@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Optional project photo 4 placeholder</title>
+  <desc id="desc">A warm geometric placeholder labeled optional photo 4.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="1" y2="0">
+      <stop stop-color="#edd9c3"/>
+      <stop offset="1" stop-color="#d29a61"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <g fill="none" stroke="#ffffff" opacity=".46">
+    <rect x="95" y="95" width="205" height="205" rx="22" transform="rotate(13 197 197)" stroke-width="20"/>
+    <circle cx="665" cy="460" r="160" stroke-width="3"/>
+  </g>
+  <g fill="#644426" text-anchor="middle" font-family="Arial, sans-serif">
+    <text x="400" y="280" font-size="34" font-weight="700" letter-spacing="6">OPTIONAL</text>
+    <text x="400" y="355" font-size="72" font-weight="700">PHOTO 4</text>
+  </g>
+</svg>
+

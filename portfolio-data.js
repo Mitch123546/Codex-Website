@@ -14,7 +14,7 @@ window.PORTFOLIO_DATA = {
   profile: {
     name: "Mitch Manzelli",
     initials: "MM",
-    tagline: "I turn complex problems into thoughtful, working systems.",
+    tagline: "I turn ideas into prototypes, and prototypes into solutions.",
     contacts: [
       {
         label: "LinkedIn",

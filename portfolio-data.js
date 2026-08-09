@@ -36,17 +36,17 @@ window.PORTFOLIO_DATA = {
     photos: [
       {
         src: "assets/personal_photo.jpg",
-        alt: "Placeholder for a primary portrait or workspace photo",
+        alt: "Mitch Looking Spiffy",
         caption: "Me looking spiffy",
       },
       {
         src: "assets/garden_photo.jpg",
-        alt: "Placeholder for a detail photo",
+        alt: "Mitch's Garden",
         caption: "I love to garden",
       },
       {
         src: "assets/cooking_photo.jpg",
-        alt: "Placeholder for a personal photo",
+        alt: "Mitch's Pizza",
         caption: "I love to cook",
       },
     ],
@@ -63,14 +63,14 @@ window.PORTFOLIO_DATA = {
       ],
       cover: {
         src: "assets/IMG_3290.jpeg",
-        alt: "Stylized placeholder illustration of an autonomous rover",
+        alt: "Photo of paper folder 3d model",
       },
       tags: ["Mechanical Design", "Controls", "Prototyping"],
       media: [
         {
           type: "image",
           src: "assets/IMG_3290.jpeg",
-          alt: "Stylized placeholder illustration of an autonomous rover",
+          alt: "Photo of paper folder 3d model",
           caption: "Replace with a hero photo of the finished system.",
         },
         {
@@ -146,34 +146,34 @@ window.PORTFOLIO_DATA = {
       ],
       cover: {
         src: "assets/garden1.jpeg",
-        alt: "Stylized placeholder illustration of a workbench organizer",
+        alt: "Garden photo",
       },
       tags: ["Horticulture", "Woodworking", "Botany"],
       media: [
         {
           type: "image",
           src: "assets/garden1.jpeg",
-          alt: "Stylized placeholder illustration of a workbench organizer",
+          alt: "Garden photo",
           caption: "Replace with the finished build.",
         },
         {
           type: "image",
           src: "assets/garden2.jpeg",
-          alt: "Stylized placeholder for a fabrication process photo",
+          alt: "Garden photo",
           caption: "Add a build-process detail.",
         },
         // OPTIONAL PHOTO 3: Replace these details, or delete this entire object.
         {
           type: "image",
           src: "assets/garden3.jpg",
-          alt: "Optional placeholder for a third project photo",
+          alt: "Garden Photo",
           caption: "Optional photo 3 - replace or remove this block.",
         },
         // OPTIONAL PHOTO 4: Replace these details, or delete this entire object.
         {
           type: "image",
           src: "assets/optional-photo-4.svg",
-          alt: "Optional placeholder for a fourth project photo",
+          alt: "Garden photo",
           caption: "Optional photo 4 - replace or remove this block.",
         },
       ],
@@ -188,34 +188,34 @@ window.PORTFOLIO_DATA = {
       ],
       cover: {
         src: "assets/tobacco1.jpg",
-        alt: "Stylized placeholder illustration of a photography map",
+        alt: "Tobacco plants",
       },
       tags: ["Botany", "Largescale Growing", "Tobacco"],
       media: [
         {
           type: "image",
           src: "assets/tobacco1.jpg",
-          alt: "Stylized placeholder illustration of a photography map",
+          alt: "Tobacco plants",
           caption: "Replace with the map or a favorite location.",
         },
         {
           type: "image",
           src: "assets/tobacco2.jpeg",
-          alt: "Stylized placeholder for a location photograph",
+          alt: "Tobacco Seedlings",
           caption: "Add one of the photographs the project inspired.",
         },
         // OPTIONAL PHOTO 3: Replace these details, or delete this entire object.
         {
           type: "image",
           src: "assets/tobacco3.jpeg",
-          alt: "Optional placeholder for a third project photo",
+          alt: "Field of tobacco",
           caption: "Optional photo 3 - replace or remove this block.",
         },
         // OPTIONAL PHOTO 4: Replace these details, or delete this entire object.
         {
           type: "image",
           src: "assets/tobacco4.jpg",
-          alt: "Optional placeholder for a fourth project photo",
+          alt: "Tobacco leaves curing",
           caption: "Optional photo 4 - replace or remove this block.",
         },
       ],

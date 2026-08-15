@@ -100,7 +100,7 @@ window.PORTFOLIO_DATA = {
         },
       ],
       videos: [
-        { src: "", poster: "", caption: "Project video 1" },
+        { src: "assets/video_test.mp4", poster: "assets/IMG_3290.jpeg", caption: "Parallel Linkage Test" },
         { src: "", poster: "", caption: "Project video 2" },
       ],
       downloads: [

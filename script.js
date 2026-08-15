@@ -7,6 +7,16 @@ const icons = {
     '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4zM4 7l8 6 8-6"/></svg>',
 };
 
+function optimizedImageSrc(src, variant = "full") {
+  return window.OPTIMIZED_IMAGES?.[src]?.[variant] || src;
+}
+
+function imageFallbackAttribute(originalSrc, optimizedSrc) {
+  return originalSrc === optimizedSrc
+    ? ""
+    : `onerror="this.onerror=null;this.src='${originalSrc}'"`;
+}
+
 function populateProfile() {
   document.title = `${data.profile.name} | Engineering Portfolio`;
   document.querySelector("[data-profile-name]").textContent = data.profile.name;
@@ -34,22 +44,30 @@ function populateProfile() {
     .join("");
 
   document.querySelector("[data-about-gallery]").innerHTML = data.profile.photos
-    .map(
-      (photo) => `
+    .map((photo) => {
+      const optimizedSrc = optimizedImageSrc(photo.src);
+      return `
         <figure>
-          <img src="${photo.src}" alt="${photo.alt}" loading="lazy" />
+          <img
+            src="${optimizedSrc}"
+            alt="${photo.alt}"
+            loading="lazy"
+            decoding="async"
+            ${imageFallbackAttribute(photo.src, optimizedSrc)}
+          />
           ${photo.caption ? `<figcaption>${photo.caption}</figcaption>` : ""}
         </figure>
-      `,
-    )
+      `;
+    })
     .join("");
 }
 
 function renderProjectCards(projects, section) {
   const grid = document.querySelector(`[data-project-grid="${section}"]`);
   grid.innerHTML = projects
-    .map(
-      (project, index) => `
+    .map((project, index) => {
+      const optimizedCover = optimizedImageSrc(project.cover.src, "card");
+      return `
         <button
           class="project-card"
           type="button"
@@ -58,7 +76,13 @@ function renderProjectCards(projects, section) {
           aria-haspopup="dialog"
         >
           <span class="project-card__image">
-            <img src="${project.cover.src}" alt="${project.cover.alt}" loading="lazy" />
+            <img
+              src="${optimizedCover}"
+              alt="${project.cover.alt}"
+              loading="lazy"
+              decoding="async"
+              ${imageFallbackAttribute(project.cover.src, optimizedCover)}
+            />
           </span>
           <span class="project-card__body">
             <span class="project-card__number">${String(index + 1).padStart(2, "0")}</span>
@@ -66,8 +90,8 @@ function renderProjectCards(projects, section) {
             <p>${project.summary}</p>
           </span>
         </button>
-      `,
-    )
+      `;
+    })
     .join("");
 }
 
@@ -77,12 +101,15 @@ const dialogCategory = document.querySelector("[data-dialog-category]");
 const dialogTags = document.querySelector("[data-dialog-tags]");
 const dialogDescription = document.querySelector("[data-dialog-description]");
 const dialogMedia = document.querySelector("[data-dialog-media]");
+const dialogDownloadsSection = document.querySelector("[data-dialog-downloads-section]");
+const dialogDownloads = document.querySelector("[data-dialog-downloads]");
 
 function mediaMarkup(media) {
   if (media.type === "video") {
+    const optimizedPoster = media.poster ? optimizedImageSrc(media.poster) : "";
     return `
       <figure>
-        <video controls preload="metadata" ${media.poster ? `poster="${media.poster}"` : ""}>
+        <video controls preload="metadata" playsinline ${optimizedPoster ? `poster="${optimizedPoster}"` : ""}>
           <source src="${media.src}" />
           Your browser does not support embedded video.
         </video>
@@ -91,11 +118,32 @@ function mediaMarkup(media) {
     `;
   }
 
+  const optimizedSrc = optimizedImageSrc(media.src);
   return `
     <figure>
-      <img src="${media.src}" alt="${media.alt || ""}" loading="lazy" />
+      <img
+        src="${optimizedSrc}"
+        alt="${media.alt || ""}"
+        loading="lazy"
+        decoding="async"
+        ${imageFallbackAttribute(media.src, optimizedSrc)}
+      />
       ${media.caption ? `<figcaption>${media.caption}</figcaption>` : ""}
     </figure>
+  `;
+}
+
+function downloadMarkup(file) {
+  return `
+    <a class="download-card" href="${file.href}" download>
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 3v12m0 0 5-5m-5 5-5-5M5 20h14" />
+      </svg>
+      <span>
+        <strong>${file.label}</strong>
+        ${file.meta ? `<small>${file.meta}</small>` : ""}
+      </span>
+    </a>
   `;
 }
 
@@ -107,7 +155,17 @@ function openProject(project, section) {
   dialogDescription.innerHTML = project.description
     .map((paragraph) => `<p>${paragraph}</p>`)
     .join("");
-  dialogMedia.innerHTML = project.media.map(mediaMarkup).join("");
+
+  const videos = (project.videos || [])
+    .filter((video) => video.src?.trim())
+    .map((video) => ({ ...video, type: "video" }));
+  const media = [...(project.media || []), ...videos];
+  dialogMedia.innerHTML = media.map(mediaMarkup).join("");
+  dialogMedia.hidden = media.length === 0;
+
+  const downloads = (project.downloads || []).filter((file) => file.href?.trim());
+  dialogDownloads.innerHTML = downloads.map(downloadMarkup).join("");
+  dialogDownloadsSection.hidden = downloads.length === 0;
   dialog.showModal();
 }
 
@@ -163,4 +221,5 @@ populateProfile();
 renderProjectCards(data.engineeringProjects, "engineering");
 renderProjectCards(data.personalProjects, "personal");
 updateHeader();
+
 

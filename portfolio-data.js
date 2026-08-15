@@ -8,6 +8,11 @@
  * Supported media:
  * { type: "image", src: "assets/photo.jpg", alt: "Useful description", caption: "Optional caption" }
  * { type: "video", src: "assets/demo.mp4", poster: "assets/poster.jpg", caption: "Optional caption" }
+ *
+ * VIDEO AND DOWNLOAD SLOTS:
+ * - Upload videos/files to /assets, then fill in src or href below.
+ * - Blank slots stay hidden on the website.
+ * - Delete an entire slot object if you do not want to keep it.
  */
 
 window.PORTFOLIO_DATA = {
@@ -94,6 +99,14 @@ window.PORTFOLIO_DATA = {
           caption: "Optional photo 4 - replace or remove this block.",
         },
       ],
+      videos: [
+        { src: "", poster: "", caption: "Project video 1" },
+        { src: "", poster: "", caption: "Project video 2" },
+      ],
+      downloads: [
+        { href: "", label: "SolidWorks assembly", meta: "SLDASM or ZIP" },
+        { href: "", label: "3D model", meta: "STEP, STL, or ZIP" },
+      ],
     },
     {
       id: "thermal-test-fixture",
@@ -113,6 +126,14 @@ window.PORTFOLIO_DATA = {
           caption: "Project details and photos coming soon.",
         },
       ],
+      videos: [
+        { src: "", poster: "", caption: "Project video 1" },
+        { src: "", poster: "", caption: "Project video 2" },
+      ],
+      downloads: [
+        { href: "", label: "SolidWorks assembly", meta: "SLDASM or ZIP" },
+        { href: "", label: "3D model", meta: "STEP, STL, or ZIP" },
+      ],
     },
     {
       id: "data-dashboard",
@@ -131,6 +152,14 @@ window.PORTFOLIO_DATA = {
           alt: "Engineering project photos coming soon",
           caption: "Project details and photos coming soon.",
         },
+      ],
+      videos: [
+        { src: "", poster: "", caption: "Project video 1" },
+        { src: "", poster: "", caption: "Project video 2" },
+      ],
+      downloads: [
+        { href: "", label: "SolidWorks assembly", meta: "SLDASM or ZIP" },
+        { href: "", label: "3D model", meta: "STEP, STL, or ZIP" },
       ],
     },
   ],
@@ -177,6 +206,14 @@ window.PORTFOLIO_DATA = {
           caption: "Optional photo 4 - replace or remove this block.",
         },
       ],
+      videos: [
+        { src: "", poster: "", caption: "Project video 1" },
+        { src: "", poster: "", caption: "Project video 2" },
+      ],
+      downloads: [
+        { href: "", label: "SolidWorks assembly", meta: "SLDASM or ZIP" },
+        { href: "", label: "3D model", meta: "STEP, STL, or ZIP" },
+      ],
     },
     {
       id: "cigar",
@@ -219,6 +256,14 @@ window.PORTFOLIO_DATA = {
           caption: "Optional photo 4 - replace or remove this block.",
         },
       ],
+      videos: [
+        { src: "", poster: "", caption: "Project video 1" },
+        { src: "", poster: "", caption: "Project video 2" },
+      ],
+      downloads: [
+        { href: "", label: "SolidWorks assembly", meta: "SLDASM or ZIP" },
+        { href: "", label: "3D model", meta: "STEP, STL, or ZIP" },
+      ],
     },
     {
       id: "arcade-controller",
@@ -238,9 +283,18 @@ window.PORTFOLIO_DATA = {
           caption: "Project details and photos coming soon.",
         },
       ],
+      videos: [
+        { src: "", poster: "", caption: "Project video 1" },
+        { src: "", poster: "", caption: "Project video 2" },
+      ],
+      downloads: [
+        { href: "", label: "SolidWorks assembly", meta: "SLDASM or ZIP" },
+        { href: "", label: "3D model", meta: "STEP, STL, or ZIP" },
+      ],
     },
   ],
 };
+
 
 
 

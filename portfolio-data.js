@@ -67,40 +67,40 @@ window.PORTFOLIO_DATA = {
         "This project taught me all the major building skills I wished to learn. I learned arduino, arduino IDE, refined my coding in C skills, developed my 3d modeling, and helped my creativity.",
       ],
       cover: {
-        src: "assets/IMG_3290.jpeg",
+        src: "assets/folder1.jpg",
         alt: "Photo of paper folder 3d model",
       },
       tags: ["Mechanical Design", "Controls", "Prototyping"],
       media: [
         {
           type: "image",
-          src: "assets/IMG_3290.jpeg",
+          src: "assets/folder1.jpg",
           alt: "Photo of paper folder 3d model",
           caption: "Replace with a hero photo of the finished system.",
         },
         {
           type: "image",
-          src: "assets/detail-blueprint.svg",
+          src: "assets/folder2.jpg",
           alt: "Stylized placeholder for a technical detail image",
           caption: "Add CAD, testing, or in-progress imagery.",
         },
         // OPTIONAL PHOTO 3: Replace these details, or delete this entire object.
         {
           type: "image",
-          src: "assets/optional-photo-3.svg",
+          src: "assets/folder3.jpg",
           alt: "Optional placeholder for a third project photo",
           caption: "Optional photo 3 - replace or remove this block.",
         },
         // OPTIONAL PHOTO 4: Replace these details, or delete this entire object.
         {
           type: "image",
-          src: "assets/optional-photo-4.svg",
+          src: "assets/folder4.jpg",
           alt: "Optional placeholder for a fourth project photo",
           caption: "Optional photo 4 - replace or remove this block.",
         },
       ],
       videos: [
-        { src: "assets/video_test.mp4", poster: "assets/IMG_3290.jpeg", caption: "Parallel Linkage Test" },
+        { src: "assets/folder_vid.mp4", poster: "assets/folder1.jpg", caption: "360 of Paper Folder's 3D Model" },
         { src: "", poster: "", caption: "Project video 2" },
       ],
       downloads: [

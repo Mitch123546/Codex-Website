@@ -221,7 +221,7 @@ window.PORTFOLIO_DATA = {
         // OPTIONAL PHOTO 4: Replace these details, or delete this entire object.
         {
           type: "image",
-          src: "assets/optional-photo-4.svg",
+          src: "assets/garden4.jpg",
           alt: "Garden photo",
           caption: "Optional photo 4 - replace or remove this block.",
         },
